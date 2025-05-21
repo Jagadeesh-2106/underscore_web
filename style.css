@@ -1,0 +1,159 @@
+span{
+    font-style: italic;
+    
+    }
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto', sans-serif;
+    font-style: oblique;
+    line-height: 1.5;
+    font-size: 14px;
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+   
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Inter',sans-serif;
+    text-transform: uppercase;
+    text-decoration:underline;
+    
+}
+a{
+    text-decoration: none;
+    color:#a684ff;
+}
+a:hover, a:active {
+    color:black;
+}
+#banner{
+    object-fit:fill;
+    width: 100%;
+    height: 50%;
+    padding: 0 8px;
+}
+
+.navigation{
+    padding: 0;
+    margin: 9px;
+    background-color:#a684ff;
+}
+#logo{
+    margin: 0;
+    padding: 0%;
+    height: 30px;
+    block-size: 80px;
+}
+.About{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+.textAbout{
+    width: 50%;
+}
+.imageAbout{
+    width: 50%;
+    
+}
+#ban{
+    border-radius: 20px;
+    object-fit: cover;
+    padding: 0 8px;
+    border-left-width: 5px;
+    
+}
+h3{
+    margin-bottom: 2px;
+    display: flex;
+}
+.jobs{
+    margin: 0 auto;
+    text-align: right;
+    max-width: 800px;
+    padding: 0 8px;
+}
+.jobrole{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:  0px auto;
+    padding: 10px ;
+}
+.loc{
+    margin-bottom: 0;
+    text-align: left;
+    margin: 0px 10px ;
+    padding: 0px;    
+}
+.apply{
+    float:right;
+    margin-right: 20px;
+}
+#footer{
+    background-color:#ede9fe;
+    margin-top: 8px;
+    text-align: center;
+}
+#footer-link li{
+    list-style: none;
+    display: inline;
+    margin: 0px 16px;
+}
+#jobs-Table{
+    text-align: left;
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+#jobs-Table tr:nth-child(odd){
+    background-color:#ddd6ff;
+}
+#HeaderRow th{
+    border: 1px solid gray;
+    padding: 8px;
+    background-color:#a684ff;
+    color: #222442;
+}
+#JobsData td{
+    border: 1px solid gray;
+    padding: 8px;
+
+}
+#application{
+    max-width: 800px;
+    margin:0 auto;
+    padding: 0 8px;
+}
+.form-group{
+    margin:8px 0;
+}
+#application-form label{
+    font-weight: 600;
+    margin-top: 8px;
+}
+#application-form input,select,textarea{
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 6px;
+    border-color:1px solid gray;
+    
+}
+.form-group input[type="submit"]{
+    background-color: #a684ff;
+    color: white;
+    cursor: pointer;
+}
+.form-group textarea{
+    width: 100%;
+    max-width: 800px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form-group input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+}
+#footer copyRight{
+    font-size: 12px;
+
+}
